@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Florida Book Bans Map - README</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 0;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        h2 {
+            font-size: 20px;
+            color: #555;
+        }
+
+        p {
+            color: #666;
+        }
+
+        code {
+            font-family: Consolas, monospace;
+            background-color: #f0f0f0;
+            padding: 2px 5px;
+            border-radius: 3px;
+            color: #333;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .code-section {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Florida Book Bans Map</h1>
+    <p>This project provides an interactive map visualizing book bans in Florida school districts for the year 2022-2023. The map allows users to explore the distribution of banned books across different districts. This map would improve the article found at  <a href="https://www.npr.org/2024/04/16/1245037718/book-bans-2023-pen-america"</a>.</p>
+
+    <h2>Interactions</h2>
+    <p>The map provides the following interactions:</p>
+    <ul>
+        <li><strong>Hover:</strong> Hover over a school district to view the number of banned books in that district.</li>
+        <li><strong>Click:</strong> Click on a school district to zoom in and view it in more detail.</li>
+    </ul>
+
+    <h2>Libraries Used</h2>
+    <p>The following libraries are used to build the map:</p>
+    <ul>
+        <li><strong>Leaflet:</strong> Leaflet is an open-source JavaScript library for interactive maps. It provides a simple and lightweight solution for creating web maps.</li>
+        <li><strong>jQuery:</strong> jQuery is a fast, small, and feature-rich JavaScript library. It simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.</li>
+        <li><strong>Leaflet.ajax:</strong> Leaflet.ajax is a plugin that extends Leaflet to support loading GeoJSON data via Ajax.</li>
+        <li><strong>Chroma.js:</strong> Chroma.js is a small library for color conversions and color scale manipulations. It's used here for generating color scales to represent the number of book bans.</li>
+    </ul>
+
+    <h2>Data Sources</h2>
+    <ul>
+        <li><strong>Florida GeoJSON:</strong> The shapefile data for Florida school districts is obtained from <a href="https://catalog.data.gov/dataset/2019-cartographic-boundary-shapefile-current-unified-school-district-for-florida-1-5000001">Data.gov</a>.</li>
+        <li><strong>Book Bans Data:</strong> Information about banned books comes from <a href="https://pen.org/2023-banned-book-list/">Pen America</a>.</li>
+    </ul>
+
+    <h2>Credits</h2>
+    <p>This map is created by Angela Andrade.</p>
+</body>
+</html>
